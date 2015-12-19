@@ -1,0 +1,134 @@
+@charset "UTF-8";
+html{ 
+	//font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
+    line-height:2;
+    box-sizing:border-box;
+    
+    background-image: url('http://orig08.deviantart.net/144e/f/2008/118/3/8/389780f6707de45ddcd8fe19db3059ec.png');
+   // background-image: url('http://3.bp.blogspot.com/-8Msbm4CqoWQ/UmpIa5ylnzI/AAAAAAAAEeI/G9PKqAHiWhA/s1600/Tileable+concrete+floor+texture+(18).jpg');
+   // background-size: ;
+    background-position: top;
+    background-attachment: fixed;
+	}
+*, *:before, *:after{
+    box-sizing:inherit;
+	-webkit-text-size-adjust:none;
+    margin: 0;
+	}
+body{
+	margin:0;
+    margin-top: 12em;
+	padding:0;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+	}
+
+h1 {
+    font-family: 'Patrick Hand SC', cursive;
+	font-size:4.5rem;
+    
+    text-align: center;
+    
+    //background-color: ghostwhite;//#F3F1EE;
+    //background-color: white;
+    background-image: url('/images/ripedcard.png');
+        background-repeat: repeat-x;
+    background-size: contain;
+    
+    position: fixed;
+    
+    width: 100%;
+    height: 2.5em;
+    top: 0;
+    //border-bottom: solid 1px;
+	}
+
+h2{
+    font-size: 10em;
+    //width: .7em;
+    width: calc(10%);
+    float: left;
+    line-height: 1em;
+    font-weight: 100;
+    font-family: 'Amatic SC', 'Delius', cursive;
+}
+
+h3{
+    float: left;
+    font-size: 3em;
+    line-height: 1.1em;
+    font-weight: 100;
+    //width: calc(100% - 4.4em);
+    width: calc(95% - 1em);
+    margin-top: .7em;
+    margin-bottom: 1rem;
+    padding-left: 5rem;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.instruction, .odd{
+    
+    width: 90%;
+    max-width: 55em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    
+    //background-color: ghostwhite;
+    //background-image: url('/images/cardboard_texture_stock_by_ymntlestock-d2xpf3o.jpg');
+    background-image: url("/images/6.png");
+    background-size: contain;
+    background-repeat: repeat-y;
+    padding: 2em;
+    
+   // border-style: solid;
+   // border-color: black;
+   // border-width: 1px;
+    border-radius: .5rem;;
+   // box-shadow: 5px 5px 10px black;
+    
+    //height: 30em;
+}
+
+img, #basicRock{
+    width: 100%;
+    max-width: 30rem;
+    display: inline-block;
+   // border: solid 1px;
+    box-shadow: 1px 1px 5px black;
+}
+
+/*.odd{
+    //background-color: rgba(247,230,206, .4);
+    margin: 0;
+    padding: 2em;
+    height: 30em;
+}*/
+
+p{
+    //clear: left;
+    font-size: 14pt;
+    margin-left: 11.3rem;
+    padding-left: 0rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#one{
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 699px){ /* up to 699px wide */
+
+html{
+	font-size:14px;
+	}
+
+}
+@media (min-width: 700px){ /* 700px wide and up */
+
+html{
+	font-size:16px;
+	}
+
+}
